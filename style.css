@@ -55,6 +55,10 @@ body {
     margin-top: 30px;
 }
 
+.container form .details.medical{
+    margin-top: 10px;
+}
+
 .container form .title{
     display: block;
     margin-bottom: 8px;
@@ -96,12 +100,6 @@ form .fields .input-field{
     margin: 8px 0;
 }
 
-.input-field label {
-    font-size: 12px;
-    font-weight: 500;
-    color: #2e2e2e;
-}
-
 .input-field select{
     outline: none;
     font-size: 14px;
@@ -124,4 +122,29 @@ form .fields .input-field{
 
 .input-field input[type="date"]:valid{
     color: #333;
+}
+
+.container form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 24px 0;
+    background-color: #4070f4;
+    transition: al 0.3s linear;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #265df2;
+}
+
+form button i{
+    margin: 0 6px;
 }
