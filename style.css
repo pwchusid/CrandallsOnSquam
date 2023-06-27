@@ -172,7 +172,7 @@ form .fields .input-field2{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 42px;
-    margin: 8px 0;
+    margin: 4px 0;
 }
 .input-field2 input :focus,
 .input-field2 select:focus{
